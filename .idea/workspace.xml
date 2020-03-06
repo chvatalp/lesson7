@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0897d434-a37c-4082-be3e-f67de556a3f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/engeto/WordCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/engeto/WordCounterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/engeto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/engeto/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/WordCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/engeto/WordCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/engeto/WordCounterTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chvatalp-java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -53,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.WordCounterTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.engeto.Main" />
       <module name="lesson7" />
@@ -64,8 +65,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.engeto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.engeto" />
+      <option name="MAIN_CLASS_NAME" value="com.engeto.WordCounterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WordCounterTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -97,6 +114,15 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/engeto/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="json.jsonArray.obj.elements" />
