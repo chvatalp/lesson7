@@ -8,7 +8,12 @@ public class WordCounter {
     private Map<String, Integer> wordCount;
 
     public WordCounter(List<Comment> commentList) {
-        this.wordCount = new HashMap<>();
+        this.wordCount = buildWordCountMap(commentList);
+
+    }
+
+    private Map<String, Integer> buildWordCountMap (List<Comment> commentList) {
+        wordCount = new HashMap<>();
         for (Comment element : commentList) {
             String[] pieces = element.getBody().split("\\s+");
             for (String word : pieces) {
@@ -16,15 +21,14 @@ public class WordCounter {
                 this.wordCount.put(word, oldCount + 1);
             }
         }
+        return wordCount;
     }
 
     public int count(String word) {
         return this.wordCount.get(word);
     }
 
-    public void print() {
-        for (String key : this.wordCount.keySet()) {
-            System.out.println(key + " : " + this.wordCount.get(key));
-        }
+    public Map<String, Integer> getWordCount() {
+        return wordCount;
     }
 }

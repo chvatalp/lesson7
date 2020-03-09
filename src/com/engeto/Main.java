@@ -10,10 +10,12 @@ public class Main {
         List<Comment> commentList = new CommentExtractor().extractComments(commentsAsJson);
 
         WordCounter wordCounter = new WordCounter(commentList);
-        wordCounter.print();
+        for (String key : wordCounter.getWordCount().keySet()) {
+            System.out.println(key + " : " + wordCounter.count(key));
 
+        }
         System.out.println(wordCounter.count("consequatur"));
         System.out.println(wordCounter.count("voluptatem"));
-    }
 
+    }
 }
