@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0897d434-a37c-4082-be3e-f67de556a3f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/engeto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/engeto/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/WordCounter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

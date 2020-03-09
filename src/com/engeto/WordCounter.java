@@ -17,7 +17,7 @@ public class WordCounter {
         for (Comment element : commentList) {
             String[] pieces = element.getBody().split("\\s+");
             for (String word : pieces) {
-                Integer oldCount = this.wordCount.getOrDefault(word, 0);
+                Integer oldCount = wordCount.getOrDefault(word, 0);
                 this.wordCount.put(word, oldCount + 1);
             }
         }
