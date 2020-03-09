@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0897d434-a37c-4082-be3e-f67de556a3f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/engeto/MainExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/engeto/idCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/engeto/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/WordCounter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +45,26 @@
       <recent name="C:\Workspace\engeto\java-course-brno\lesson6\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainExercise">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.engeto.Main" />
       <module name="lesson7" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.engeto.MainExercise" />
+      <module name="lesson7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.engeto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -72,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainExercise" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.WordCounterTest" />
       </list>
@@ -112,24 +127,53 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="160" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583742728826" />
-    <state width="914" height="276" key="GridCell.Tab.0.bottom" timestamp="1583744256170">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1583745021622">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583744256170" />
-    <state width="914" height="276" key="GridCell.Tab.0.center" timestamp="1583744256170">
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1583745021622" />
+    <state width="916" height="281" key="GridCell.Tab.0.bottom" timestamp="1583748348913">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583744256170" />
-    <state width="914" height="276" key="GridCell.Tab.0.left" timestamp="1583744256170">
+    <state width="916" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583748348913" />
+    <state width="916" height="281" key="GridCell.Tab.0.center" timestamp="1583748348913">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583744256170" />
-    <state width="914" height="276" key="GridCell.Tab.0.right" timestamp="1583744256170">
+    <state width="916" height="281" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583748348913" />
+    <state width="916" height="281" key="GridCell.Tab.0.left" timestamp="1583748348913">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="276" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583744256170" />
+    <state width="916" height="281" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583748348913" />
+    <state width="916" height="281" key="GridCell.Tab.0.right" timestamp="1583748348913">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="916" height="281" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583748348913" />
+    <state width="914" height="359" key="GridCell.Tab.1.bottom" timestamp="1583747723131">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="359" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583747723131" />
+    <state width="914" height="359" key="GridCell.Tab.1.center" timestamp="1583747723131">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="359" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583747723131" />
+    <state width="914" height="359" key="GridCell.Tab.1.left" timestamp="1583747723131">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="359" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583747723131" />
+    <state width="914" height="359" key="GridCell.Tab.1.right" timestamp="1583747723131">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="359" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583747723131" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/engeto/MainExercise.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="json.jsonArray.obj.elements" />
